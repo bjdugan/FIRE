@@ -1,0 +1,21 @@
+.Rproj.user
+.Rhistory
+.RData
+.httr-oauth
+.DS_Store
+.quarto
+analysis.qmd
+EDA.html
+EDA.qmd
+FIRE & NSSE_ What we know about engagement and speech on campus.pdf
+INAIR-Presentation.html
+INAIR-Presentation.qmd
+03_import nsse.r
+articles/
+EDA_files/
+# ignore all but specific files in data: cleaned FIRE data
+data/
+!data/fire_data.rds
+!data/cfsr_megafile_codebook.csv
+INAIR-Presentation_files/
+project log FIRE.txt

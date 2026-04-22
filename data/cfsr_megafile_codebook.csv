@@ -1,0 +1,1091 @@
+Variable,VariableLabel,Value,ValueLabel
+idhash,College Pulse respondent ID,,
+,,,
+submitted_at,Date and time of survey completion,,
+,,,
+datayear,Data collection year,,
+,,,
+schoolname,College or university name,,
+,,,
+unitid,IPEDS school ID,,
+,,,
+weight,National weight,,
+,,,
+schoolweight,School weight,,
+,,,
+schooluniverse_weight,National weight based only on schools sampled,,
+,,,
+fouryearweight,Four year weight,,
+,,,
+regvoter,Are you currently registered to vote at your present address?,0,"No, not registered"
+,,1,"Yes, registered to vote"
+,,98,Not in survey
+,,99,Missing
+,,,
+race,Which of the following races or ethnicities do you most identify with?,1,Asian
+,,2,Black or African-American
+,,3,Hispanic/Latino
+,,4,American Indian
+,,5,Middle Eastern
+,,6,Native Hawaiian
+,,7,White
+,,8,Two or more races
+,,10,Other
+,,98,Not in survey
+,,99,Missing
+,,,
+gender_bin,Which of the following genders do you most identify with?,1,Male
+,,2,Female
+,,3,Gender non-conforming
+,,98,Not in survey
+,,99,Missing
+,,,
+sexorientation,What is your sexual orientation?,1,Heterosexual/Straight
+,,2,Gay/Lesbian
+,,3,Bisexual
+,,4,Quuer/Questioning/Other
+,,98,Not in survey
+,,99,Missing
+,,,
+religion,"What is your present religion, if any?",1,Protestant
+,,2,Catholic
+,,3,Mormon
+,,4,Orthodox
+,,5,Jewish
+,,6,Muslim
+,,7,Atheist
+,,8,Agnostic
+,,9,Nothing
+,,10,Christian
+,,11,Buddhist
+,,12,Hindu
+,,13,Other
+,,98,Not in survey
+,,99,Missing
+,,,
+religion_string25,Religion: string responses (datayear 2025),,
+,,,
+gradyear,What year do you expect to graduate?,,
+,,,
+grade,Grade in school (imported from gradyear),0,Senior
+,,1,Junior
+,,2,Sophomore
+,,3,Freshman
+,,98,Not in survey
+,,99,Missing
+,,,
+geography,"What region of the US is your hometown in, or are you an international student?",1,New England
+,,2,Mid-Atlantic
+,,3,Midwest
+,,4,South
+,,5,West
+,,6,Non-Continental
+,,7,International
+,,8,Other
+,,98,Not in survey
+,,99,Missing
+,,,
+highschool,What type of high school did you go to?,1,Public
+,,2,Public charter
+,,3,Public magnet
+,,4,Parochial
+,,5,Private
+,,6,Homeschool
+,,7,Other
+,,98,Not in survey
+,,99,Missing
+,,,
+highschool_string25,High school: string responses (datayear 2025),,
+,,,
+ses,"Thinking about your family's financial situation when you were growing up, how would you describe your family's social class?",1,Upper class
+,,2,Upper-middle class
+,,3,Middle class
+,,4,Working class
+,,5,Lower class
+,,98,Not in survey
+,,99,Missing
+,,,
+financialaid,Do you receive financial aid?,1,Yes
+,,2,No
+,,3,Other
+,,98,Not in survey
+,,99,Missing
+,,,
+veteran,Are you a veteran of the armed services?,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+armedforces,Are you currently a member of the armed services?,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+isedvisoruser,Student uses advisor,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+studenttype,What best describes your affiliation with your university?,1,Undergrad student
+,,2,Graduate student
+,,3,Exchange or visiting student
+,,4,Faculty
+,,5,Staff
+,,98,Not in survey
+,,99,Missing
+,,,
+age,How old are you?,,
+,,,
+greek,Are you affiliated? (Greek group involvment),1,Fraternity
+,,2,Sorority
+,,3,Coed
+,,4,None
+,,5,Other
+,,98,Not in survey
+,,99,Missing
+,,,
+athlete,Athletic group involvment,1,Varsity
+,,2,Club
+,,3,None
+,,4,Other
+,,98,Not in survey
+,,99,Missing
+,,,
+legacy,Are you a legacy student?,0,No
+,,1,Yes
+,,3,Other
+,,98,Not in survey
+,,99,Missing
+,,,
+urban,Urban/rural stauts of where you grew up,1,Mostly in a rural setting
+,,2,Mostly in a suburban setting
+,,3,Mostly in an urban setting
+,,4,I moved around a lot
+,,5,Other
+,,98,Not in survey
+,,99,Missing
+,,,
+major_group,"Please select your department/your major(s), or intended major(s)",1,Arts
+,,2,Business
+,,3,Humanities
+,,4,STEM
+,,5,Social Sciences
+,,6,Other/Undecided
+,,99,Missing
+,,,
+hideopforgrade,"How often, if at all, do you hide your political beliefs from your professors in an attempt to get a better grade?",1,Never
+,,2,Rarely
+,,3,"Occasionally, once or twice a month"
+,,4,"Fairly often, a couple times a week"
+,,5,"Very often, nearly every day"
+,,98,Not in survey
+,,99,Missing
+,,,
+cancelsomeone,"Have you ever been involved in publicly calling out, punishing, or “canceling” someone or a group for inappropriate statements or actions?",1,Yes
+,,0,No
+,,98,Not in survey
+,,99,Missing
+,,,
+canceloutcome,"Thinking of the last incident where someone was publicly called out, punished, or “canceled” for their statements or actions, would you say the consequence or impact on the person was…",1,Too lenient
+,,2,About right
+,,3,Too harsh
+,,98,Not in survey
+,,99,Missing
+,,,
+freqoffended,"How often, if ever, have you personally been offended by perspectives shared by peers or classmates when in the classroom?",1,Never
+,,2,Rarely
+,,3,Occasionally
+,,4,"Fairly often, a couple of times a week"
+,,5,"Very often, nearly every day"
+,,98,Not in survey
+,,99,Missing
+,,,
+attendreligserv,How often do you attend church or religious services?,1,Never
+,,2,Less than once a year
+,,3,Once or twice a year
+,,4,Several times a year
+,,5,Once a month
+,,6,2-3 times a month
+,,7,About weekly
+,,8,Weekly
+,,9,Several times a week
+,,98,Not in survey
+,,99,Missing
+,,,
+numclosefriends,"Not counting your family, how many close friends do you have?",,
+,,,
+titleixfiled,Have you or anyone you know filed a Title IX complaint?,1,I have filed a Title IX complaint.
+,,2,I both know someone who has and have myself filed a Title IX complaint.
+,,3,I have not but I know someone who has filed a Title IX complaint.
+,,4,"I have neither filed a Title IX complaint, nor know anyone who has."")"
+,,98,Not in survey
+,,99,Missing
+,,,
+titleixagainst,Has a Title IX complaint ever been filed against you or someone you know?,1,A Title IX complaint was filed against me.
+,,2,A Title IX complaint was filed against me and someone I know.
+,,3,"A Title IX complaint was filed against someone I know, but not me."
+,,4,"A Title IX complaint has never been filed against me or someone I know."")"
+,,98,Not in survey
+,,99,Missing
+,,,
+ideo,Political ideology,1,Very liberal
+,,2,Somewhat liberal
+,,3,Slightly liberal
+,,4,"Moderate, middle-of-the-road"
+,,5,Slightly conservative
+,,6,Somewhat conservative
+,,7,Very conservative
+,,8,Democratic Socialist
+,,9,Libertarian
+,,10,Haven't thought much about this
+,,11,Something else
+,,98,Not in survey
+,,99,Missing
+,,,
+cp_partyid,"In politics today, do you consider yourself a Republican, Democrat, or something else?",1,Strong Democrat
+,,2,Weak Democrat
+,,3,"Independent, lean Democrat"
+,,4,Independent
+,,5,"Independent, lean Republican"
+,,6,Weak Republican
+,,7,Strong Republican
+,,8,Something else
+,,98,Not in survey
+,,99,Missing
+,,,
+fire_partyid,"In politics today, do you consider yourself a Republican, Democrat, or something else?",1,Strong Democrat
+,,2,Weak Democrat
+,,3,"Independent, lean Democrat"
+,,4,Independent
+,,5,"Independent, lean Republican"
+,,6,Weak Republican
+,,7,Strong Republican
+,,8,Something else
+,,98,Not in survey
+,,99,Missing
+,,,
+ipcopinion,"From what you know about the situation in the Middle East, do your sympathies lie more with the Israelis or more with the Palestinians?",1,Israelis
+,,2,Palestinians
+,,3,Both equally
+,,4,Neither
+,,5,Don't know
+,,98,Not in survey
+,,99,Missing
+,,,
+blameforoct7,"Regardless of your overall feelings toward the Israelis and the Palestinians, who do you think is more responsible for the 2023 outbreak of violence in the Middle East: Israel or Hamas?",1,Israel
+,,2,Hamas
+,,3,Both equally
+,,4,Don't know
+,,98,Not in survey
+,,99,Missing
+,,,
+issueimportance,"As you think about the upcoming 2020 presidential election, which of the following issues is the single MOST important to you personally?",1,Abortion and reproductive health
+,,2,Cost of education
+,,3,Immigration
+,,4,Gun policy
+,,5,Racial inequality
+,,6,Treatment of LGBT people
+,,7,The growing gap between rich and poor
+,,8,The environment and climate change
+,,9,Foreign policy
+,,10,Other
+,,98,Not in survey
+,,99,Missing
+,,,
+mh_anxious,How often would you say that you feel anxious?,1,Never
+,,2,Less than half the time
+,,3,About half the time
+,,4,"Most of the time, nearly every day"
+,,5,Always
+,,98,Not in survey
+,,99,Missing
+,,,
+mh_lonely,How often would you say that you feel lonely or isolated?,1,Never
+,,2,Less than half the time
+,,3,About half the time
+,,4,"Most of the time, nearly every day"
+,,5,Always
+,,98,Not in survey
+,,99,Missing
+,,,
+mh_notime,How often would you say that you feel like you have no time for yourself?,1,Never
+,,2,Less than half the time
+,,3,About half the time
+,,4,"Most of the time, nearly every day"
+,,5,Always
+,,98,Not in survey
+,,99,Missing
+,,,
+mh_depressed,How often would you say that you feel depressed?,1,Never
+,,2,Less than half the time
+,,3,About half the time
+,,4,"Most of the time, nearly every day"
+,,5,Always
+,,98,Not in survey
+,,99,Missing
+,,,
+mh_stressed,"How often would you say that you feel stressed, frustrated, or overwhelmed?",1,Never
+,,2,Less than half the time
+,,3,About half the time
+,,4,"Most of the time, nearly every day"
+,,5,Always
+,,98,Not in survey
+,,99,Missing
+,,,
+sc,"On your campus, how often have you felt that you could not express your opinion on a subject because of how students, a professor, or the administration would respond?",1,Never
+,,2,Rarely
+,,3,"Occasionally, once or twice a month"
+,,4,"Fairly often, a couple of times a week"
+,,5,"Very often, nearly every day"
+,,98,Not in survey
+,,99,Missing
+,,,
+sc_stdnt,How often do you self-censor during conversations with other students on campus?,1,Never
+,,2,Rarely
+,,3,"Occasionally, once or twice a month"
+,,4,"Fairly often, a couple of times a week"
+,,5,"Very often, nearly every day"
+,,98,Not in survey
+,,99,Missing
+,,,
+sc_profs,How often do you self-censor during conversations with your professors?,1,Never
+,,2,Rarely
+,,3,"Occasionally, once or twice a month"
+,,4,"Fairly often, a couple of times a week"
+,,5,"Very often, nearly every day"
+,,98,Not in survey
+,,99,Missing
+,,,
+sc_class,How often do you self-censor during classroom discussions?,1,Never
+,,2,Rarely
+,,3,"Occasionally, once or twice a month"
+,,4,"Fairly often, a couple of times a week"
+,,5,"Very often, nearly every day"
+,,98,Not in survey
+,,99,Missing
+,,,
+sc_change,"Compared to when you started college, are you now more or less likely to self-censor on campus?",1,Much less likley
+,,2,Less likely
+,,3,About the same
+,,4,More likely
+,,5,Much more likely
+,,98,Not in survey
+,,99,Missing
+,,,
+pressure,How much pressure do you feel to avoid discussing controversial topics in your classes?,1,No pressure at all
+,,2,Slight pressure
+,,3,Some pressure
+,,4,A good deal of pressure
+,,5,A great deal of pressure
+,,98,Not in survey
+,,99,Missing
+,,,
+reputation,How worried are you about damaging your reputation because someone misunderstands something you have said or done?,1,Not at all worried
+,,2,Not very worried
+,,3,Worried a little
+,,4,Worried a lot
+,,98,Not in survey
+,,99,Missing
+,,,
+adminclear,How clear is it to you that your college administration protects free speech on campus?,1,Not at all clear
+,,2,Not very clear
+,,3,Somewhat clear
+,,4,Very clear
+,,5,Extremely clear
+,,98,Not in survey
+,,99,Missing
+,,,
+admincontr,"If a controversy over offensive speech were to occur on your campus, how likely is it that the administration would defend the speaker's right to express their views?",1,Not at all likely
+,,2,Not very likely
+,,3,Somewhat likely
+,,4,Very likely
+,,5,Extremely likely
+,,98,Not in survey
+,,99,Missing
+,,,
+stdntreport,How likely or unlikely is it that a student on campus would be reported to the administration by another student for saying something controversial?,1,Very unlikely
+,,2,Unlikely
+,,3,Neither likely or unlikely
+,,4,Likely
+,,5,Very likely
+,,98,Not in survey
+,,99,Missing
+,,,
+profreport,How likely or unlikely is it that a professor on campus would be reported to the administration by a student for saying something controversial?,1,Very unlikely
+,,2,Unlikely
+,,3,Neither likely or unlikely
+,,4,Likely
+,,5,Very likely
+,,98,Not in survey
+,,99,Missing
+,,,
+cf_pubprof,How comfortable would you feel doing the following on your campus?: Publicly disagreeing with a professor about a controversial political topic.,1,Very uncomfortable
+,,2,Somewhat uncomfortable
+,,3,Somewhat comfortable
+,,4,Very comfortable
+,,98,Not in survey
+,,99,Missing
+,,,
+cf_socmedia,How comfortable would you feel doing the following on your campus? Expressing an unpopular political opinion to your fellow students on a social media account tied to your name.,1,Very uncomfortable
+,,2,Somewhat uncomfortable
+,,3,Somewhat comfortable
+,,4,Very comfortable
+,,98,Not in survey
+,,99,Missing
+,,,
+cf_inclass,How comfortable would you feel doing the following on your campus? Expressing your views on a controversial political topic during an in-class discussion.,1,Very uncomfortable
+,,2,Somewhat uncomfortable
+,,3,Somewhat comfortable
+,,4,Very comfortable
+,,98,Not in survey
+,,99,Missing
+,,,
+cf_oped,How comfortable would you feel doing the following on your campus? Writing an article or letter in the student newspaper that is critical of the college administration?,1,Very uncomfortable
+,,2,Somewhat uncomfortable
+,,3,Somewhat comfortable
+,,4,Very comfortable
+,,98,Not in survey
+,,99,Missing
+,,,
+cf_wrtprof,How comfortable would you feel doing the following on your campus? Expressing disagreement with one of your professors about a controversial political topic in a written assignment.,1,Very uncomfortable
+,,2,Somewhat uncomfortable
+,,3,Somewhat comfortable
+,,4,Very comfortable
+,,98,Not in survey
+,,99,Missing
+,,,
+cf_quad,"How comfortable would you feel doing the following on your campus? Expressing your views on a controversial political topic to other students during a discussion in a common campus space such as a quad, dining hall, or lounge.",1,Very uncomfortable
+,,2,Somewhat uncomfortable
+,,3,Somewhat comfortable
+,,4,Very comfortable
+,,98,Not in survey
+,,99,Missing
+,,,
+spk_trans,"Student groups often invite speakers to campus to express their views on a range of topics. Regardless of your own views on the topic, should your school ALLOW or NOT ALLOW a speaker on campus who has previously expressed the following idea? Transgender people have a mental disorder.",1,Definitely should not allow this speaker
+,,2,Probably should not allow this speaker
+,,3,Probably should allow this speaker
+,,4,Definitely should allow this speaker
+,,98,Not in survey
+,,99,Missing
+,,,
+spk_abortion,"Student groups often invite speakers to campus to express their views on a range of topics. Regardless of your own views on the topic, should your school ALLOW or NOT ALLOW a speaker on campus who has previously expressed the following idea? Abortion should be completely illegal.",1,Definitely should not allow this speaker
+,,2,Probably should not allow this speaker
+,,3,Probably should allow this speaker
+,,4,Definitely should allow this speaker
+,,98,Not in survey
+,,99,Missing
+,,,
+spk_israel,"Student groups often invite speakers to campus to express their views on a range of topics. Regardless of your own views on the topic, should your school ALLOW or NOT ALLOW a speaker on campus who has previously expressed the following idea? The U.S. should support Israeli military policy.",1,Definitely should not allow this speaker
+,,2,Probably should not allow this speaker
+,,3,Probably should allow this speaker
+,,4,Definitely should allow this speaker
+,,98,Not in survey
+,,99,Missing
+,,,
+spk_raceint,"Student groups often invite speakers to campus to express their views on a range of topics. Regardless of your own views on the topic, should your school ALLOW or NOT ALLOW a speaker on campus who has previously expressed the following idea? Some racial groups are less intelligent than others.",1,Definitely should not allow this speaker
+,,2,Probably should not allow this speaker
+,,3,Probably should allow this speaker
+,,4,Definitely should allow this speaker
+,,98,Not in survey
+,,99,Missing
+,,,
+spk_chrstneg,"Student groups often invite speakers to campus to express their views on a range of topics. Regardless of your own views on the topic, should your school ALLOW or NOT ALLOW a speaker on campus who has previously expressed the following idea? Christianity has a negative influence on society.",1,Definitely should not allow this speaker
+,,2,Probably should not allow this speaker
+,,3,Probably should allow this speaker
+,,4,Definitely should allow this speaker
+,,98,Not in survey
+,,99,Missing
+,,,
+spk_newscen,"Student groups often invite speakers to campus to express their views on a range of topics. Regardless of your own views on the topic, should your school ALLOW or NOT ALLOW a speaker on campus who has previously expressed the following idea? Censoring the news media is necessary.",1,Definitely should not allow this speaker
+,,2,Probably should not allow this speaker
+,,3,Probably should allow this speaker
+,,4,Definitely should allow this speaker
+,,98,Not in survey
+,,99,Missing
+,,,
+spk_blm,"Student groups often invite speakers to campus to express their views on a range of topics. Regardless of your own views on the topic, should your school ALLOW or NOT ALLOW a speaker on campus who has previously expressed the following idea? Black Lives Matter is a hate group.",1,Definitely should not allow this speaker
+,,2,Probably should not allow this speaker
+,,3,Probably should allow this speaker
+,,4,Definitely should allow this speaker
+,,98,Not in survey
+,,99,Missing
+,,,
+spk_whites,"Student groups often invite speakers to campus to express their views on a range of topics. Regardless of your own views on the topic, should your school ALLOW or NOT ALLOW a speaker on campus who has previously expressed the following idea? Structural racism maintains inequality by protecting White privilege.",1,Definitely should not allow this speaker
+,,2,Probably should not allow this speaker
+,,3,Probably should allow this speaker
+,,4,Definitely should allow this speaker
+,,98,Not in survey
+,,99,Missing
+,,,
+spk_abolishpolice,"Student groups often invite speakers to campus to express their views on a range of topics. Regardless of your own views on the topic, should your school ALLOW or NOT ALLOW a speaker on campus who has previously expressed the following idea? The police should be abolished because they are racist.",1,Definitely should not allow this speaker
+,,2,Probably should not allow this speaker
+,,3,Probably should allow this speaker
+,,4,Definitely should allow this speaker
+,,98,Not in survey
+,,99,Missing
+,,,
+spk_religlib,"Student groups often invite speakers to campus to express their views on a range of topics. Regardless of your own views on the topic, should your school ALLOW or NOT ALLOW a speaker on campus who has previously expressed the following idea? Religious liberty is used as an excuse to discriminate against gays and lesbians.",1,Definitely should not allow this speaker
+,,2,Probably should not allow this speaker
+,,3,Probably should allow this speaker
+,,4,Definitely should allow this speaker
+,,98,Not in survey
+,,99,Missing
+,,,
+spk_loot,"Student groups often invite speakers to campus to express their views on a range of topics. Regardless of your own views on the topic, should your school ALLOW or NOT ALLOW a speaker on campus who has previously expressed the following idea? Looting is a justifiable form of protest.",1,Definitely should not allow this speaker
+,,2,Probably should not allow this speaker
+,,3,Probably should allow this speaker
+,,4,Definitely should allow this speaker
+,,98,Not in survey
+,,99,Missing
+,,,
+spk_lockdown,"Student groups often invite speakers to campus to express their views on a range of topics. Regardless of your own views on the topic, should your school ALLOW or NOT ALLOW a speaker on campus who has previously expressed the following idea? The lockdown orders issued in response to the coronavirus have infringed on our personal liberties.",1,Definitely should not allow this speaker
+,,2,Probably should not allow this speaker
+,,3,Probably should allow this speaker
+,,4,Definitely should allow this speaker
+,,98,Not in survey
+,,99,Missing
+,,,
+spk_election,"Student groups often invite speakers to campus to express their views on a range of topics. Regardless of your own views on the topic, should your school ALLOW or NOT ALLOW a speaker on campus who has previously expressed the following idea? The 2020 Presidential election was stolen.",1,Definitely should not allow this speaker
+,,2,Probably should not allow this speaker
+,,3,Probably should allow this speaker
+,,4,Definitely should allow this speaker
+,,98,Not in survey
+,,99,Missing
+,,,
+spk_guns,"Student groups often invite speakers to campus to express their views on a range of topics. Regardless of your own views on the topic, should your school ALLOW or NOT ALLOW a speaker on campus who has previously expressed the following idea? The Second Amendment should be repealed so that guns can be confiscated.",1,Definitely should not allow this speaker
+,,2,Probably should not allow this speaker
+,,3,Probably should allow this speaker
+,,4,Definitely should allow this speaker
+,,98,Not in survey
+,,99,Missing
+,,,
+spk_immigration,"Student groups often invite speakers to campus to express their views on a range of topics. Regardless of your own views on the topic, should your school ALLOW or NOT ALLOW a speaker on campus who has previously expressed the following idea? Undocumented immigrants should be given the right to vote.",1,Definitely should not allow this speaker
+,,2,Probably should not allow this speaker
+,,3,Probably should allow this speaker
+,,4,Definitely should allow this speaker
+,,98,Not in survey
+,,99,Missing
+,,,
+spk_speech,"Student groups often invite speakers to campus to express their views on a range of topics. Regardless of your own views on the topic, should your school ALLOW or NOT ALLOW a speaker on campus who has previously expressed the following idea? ""Getting rid of inequality is more important than protecting the so-called ""right"" to free speech.""",1,Definitely should not allow this speaker
+,,2,Probably should not allow this speaker
+,,3,Probably should allow this speaker
+,,4,Definitely should allow this speaker
+,,98,Not in survey
+,,99,Missing
+,,,
+spk_cathped,"Student groups often invite speakers to campus to express their views on a range of topics. Regardless of your own views on the topic, should your school ALLOW or NOT ALLOW a speaker on campus who has previously expressed the following idea? The Catholic church is a pedophilic institution.",1,Definitely should not allow this speaker
+,,2,Probably should not allow this speaker
+,,3,Probably should allow this speaker
+,,4,Definitely should allow this speaker
+,,98,Not in survey
+,,99,Missing
+,,,
+spk_policekkk,"Student groups often invite speakers to campus to express their views on a range of topics. Regardless of your own views on the topic, should your school ALLOW or NOT ALLOW a speaker on campus who has previously expressed the following idea? The police are just as racist as the Ku Klux Klan.",1,Definitely should not allow this speaker
+,,2,Probably should not allow this speaker
+,,3,Probably should allow this speaker
+,,4,Definitely should allow this speaker
+,,98,Not in survey
+,,99,Missing
+,,,
+spk_kidtrans,"Student groups often invite speakers to campus to express their views on a range of topics. Regardless of your own views on the topic, should your school ALLOW or NOT ALLOW a speaker on campus who has previously expressed the following idea? Children should be able to transition without parental consent.",1,Definitely should not allow this speaker
+,,2,Probably should not allow this speaker
+,,3,Probably should allow this speaker
+,,4,Definitely should allow this speaker
+,,98,Not in survey
+,,99,Missing
+,,,
+spk_bombgaza,"Student groups often invite speakers to campus to express their views on a range of topics. Regardless of your own views on the topic, should your school ALLOW or NOT ALLOW a speaker on campus who has previously expressed the following idea? Collateral damage in Gaza is justified for the sake of Israeli security.",1,Definitely should not allow this speaker
+,,2,Probably should not allow this speaker
+,,3,Probably should allow this speaker
+,,4,Definitely should allow this speaker
+,,98,Not in survey
+,,99,Missing
+,,,
+spk_freepalestine,"Student groups often invite speakers to campus to express their views on a range of topics. Regardless of your own views on the topic, should your school ALLOW or NOT ALLOW a speaker on campus who has previously expressed the following idea? From the river to the sea, Palestine will be free.",1,Definitely should not allow this speaker
+,,2,Probably should not allow this speaker
+,,3,Probably should allow this speaker
+,,4,Definitely should allow this speaker
+,,98,Not in survey
+,,99,Missing
+,,,
+act_rmflyer,How acceptable would you say it is for students to engage in the following action to protest a campus speaker? Removing flyers or other advertisements for an upcoming speaker or event on campus.,1,Always acceptable
+,,2,Sometimes acceptable
+,,3,Rarely acceptable
+,,4,Never acceptable
+,,98,Not in survey
+,,99,Missing
+,,,
+act_block,How acceptable would you say it is for students to engage in the following actions to protest a campus speaker? Blocking other students from attending a campus speech.,1,Always acceptable
+,,2,Sometimes acceptable
+,,3,Rarely acceptable
+,,4,Never acceptable
+,,98,Not in survey
+,,99,Missing
+,,,
+act_shout,How acceptable would you say it is for students to engage in the following actions to protest a campus speaker? Shouting down a speaker to prevent them from speaking on campus.,1,Always acceptable
+,,2,Sometimes acceptable
+,,3,Rarely acceptable
+,,4,Never acceptable
+,,98,Not in survey
+,,99,Missing
+,,,
+act_viol,How acceptable would you say it is for students to engage in the following actions to protest a campus speaker? Using violence to stop a campus speech.,1,Always acceptable
+,,2,Sometimes acceptable
+,,3,Rarely acceptable
+,,4,Never acceptable
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_abortion,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): Abortion",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_affirmact,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): Affirmative action",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_feminism,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): Feminism",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_gunctrl,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): Gun control",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_immig,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): Immigration",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_ipc,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): The Israeli/Palestinian conflict",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_raceineq,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): Racial inequality",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_trans,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): Transgender rights",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_sexasslt,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): Sexual assault",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_socmeddplt,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): Social media deplatforming",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_none,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): None of the above",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_china,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): China",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_climate,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): Climate change",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_covid19,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): Coronavirus",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_econineq,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): Economic inequality",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_genderineq,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): Gender inequality",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_floyd,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): George Floyd protests",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_maskmndt,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): Mask mandates",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_police,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): Police misconduct",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_vaxmndt,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): COVID-19 vaccine mandates",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_freespeech,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): Freedom of speech",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_inflation,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): Inflation",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_scotus,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): The Supreme Court",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_ukraine,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): War in Ukraine",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_crime,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): Crime",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_gayrights,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): Gay rights",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_hatespeech,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): Hate speech",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_preselec,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): The 2024 presidential election",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tk_religion,"Some students say it can be difficult to have conversations about certain issues on campus. Which of the following issues, if any, would you say are difficult to have an open and honest conversation about on your campus? (select all that apply): Religion",0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+grp_asian,Which of the following groups on your campus should be able to register as student organizations and receive student activity fees? (select all that apply) Asian student groups.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+grp_atheist,Which of the following groups on your campus should be able to register as student organizations and receive student activity fees? (select all that apply) Atheist/agnostic/secular student groups.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+grp_gop,Which of the following groups on your campus should be able to register as student organizations and receive student activity fees? (select all that apply) Republican student groups.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+grp_dem,Which of the following groups on your campus should be able to register as student organizations and receive student activity fees? (select all that apply) Democratic student groups.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+grp_cons,Which of the following groups on your campus should be able to register as student organizations and receive student activity fees? (select all that apply) Politically conservative student groups.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+grp_lib,Which of the following groups on your campus should be able to register as student organizations and receive student activity fees? (select all that apply) Politically liberal student groups.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+grp_blm,Which of the following groups on your campus should be able to register as student organizations and receive student activity fees? (select all that apply) Black Lives Matter student groups.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+grp_israel,Which of the following groups on your campus should be able to register as student organizations and receive student activity fees? (select all that apply) Pro-Israeli student groups.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+grp_palestine,Which of the following groups on your campus should be able to register as student organizations and receive student activity fees? (select all that apply) Pro-Palestinian student groups.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+grp_other,Which of the following groups on your campus should be able to register as student organizations and receive student activity fees? (select all that apply) Other student groups.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+grp_none,Which of the following groups on your campus should be able to register as student organizations and receive student activity fees? (select all that apply) None of the above.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+grp_blk,Which of the following groups on your campus should be able to register as student organizations and receive student activity fees? Black or African-American student groups.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+grp_hisp,Which of the following groups on your campus should be able to register as student organizations and receive student activity fees? Hispanic/Latino student groups.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+grp_greek,Which of the following groups on your campus should be able to register as student organizations and receive student activity fees? Sororities or fraternities.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+grp_lgbtq,Which of the following groups on your campus should be able to register as student organizations and receive student activity fees? LGBTQ+ student groups.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+grp_christ,Which of the following groups on your campus should be able to register as student organizations and receive student activity fees? Christian student groups.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+grp_jew,Which of the following groups on your campus should be able to register as student organizations and receive student activity fees? Jewish student groups.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+grp_islam,Which of the following groups on your campus should be able to register as student organizations and receive student activity fees? Muslim/Islamic student groups.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+grp_hindu,Which of the following groups on your campus should be able to register as student organizations and receive student activity fees? Hindu student groups.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+plcy_myrace,What campus changes would make you feel that you can express yourself? (Select all that apply.) If there were more people of my race.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+plcy_notolhate,What campus changes would make you feel that you can express yourself? (Select all that apply.) If there were less tolerance for views that some consider hateful.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+plcy_otherrace,What campus changes would make you feel that you can express yourself? (Select all that apply.) If there were more people of different races than me.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+plcy_mygender,What campus changes would make you feel that you can express yourself? (Select all that apply.) If there were more people of my gender.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+plcy_othergender,What campus changes would make you feel that you can express yourself? (Select all that apply.) If there were more people of a different gender.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+plcy_myrelig,What campus changes would make you feel that you can express yourself? (Select all that apply.) If there were more people of my religion.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+plcy_otherrelig,What campus changes would make you feel that you can express yourself? (Select all that apply.) If there were more people of different religions than me.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+plcy_mypolviews,What campus changes would make you feel that you can express yourself? (Select all that apply.) If there were more people with my political views.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+plcy_otherpolviews,What campus changes would make you feel that you can express yourself? (Select all that apply.) If there were more people with different political views from me.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+plcy_tolhate,What campus changes would make you feel that you can express yourself? (Select all that apply.) If there were more tolerance of views that some consider hateful.,0,No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tkpol_parents,Who do you talk to about controversial political issues? (select all that apply) Parents,0, No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tkpol_therapist,Who do you talk to about controversial political issues? (select all that apply) Therapist or mental health counselor,0, No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tkpol_team,Who do you talk to about controversial political issues? (select all that apply) Athletic teammates,0, No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tkpol_coach,Who do you talk to about controversial political issues? (select all that apply) Athletic coach,0, No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tkpol_none,Who do you talk to about controversial political issues? (select all that apply) None of the above,0, No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tkpol_grparents,Who do you talk to about controversial political issues? (select all that apply) Grandparents,0, No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tkpol_siblings,Who do you talk to about controversial political issues? (select all that apply) Siblings,0, No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tkpol_extfam,Who do you talk to about controversial political issues? (select all that apply) Extended Family,0, No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tkpol_friends,Who do you talk to about controversial political issues? (select all that apply) Friends,0, No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tkpol_cowork,Who do you talk to about controversial political issues? (select all that apply) Co-workers,0, No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tkpol_profs,Who do you talk to about controversial political issues? (select all that apply) Professors,0, No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tkpol_advisor,Who do you talk to about controversial political issues? (select all that apply) Academic advisor,0, No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+tkpol_admin,Who do you talk to about controversial political issues? College administrators,0, No
+,,1,Yes
+,,98,Not in survey
+,,99,Missing
+,,,
+beforeprotest,Before 2024 encampment protests indicator (datayear 2024); Before Trump admin targets Columbia/Harvard (datayear 2025),,
+,,,
+climate_notshare,How would you describe the climate on your campus towards people who do not share your political beliefs?,1,Very hostile
+,,2,Somewhat hostile
+,,3,Somewhat supportive
+,,4,Very supportive
+,,98,Not in survey
+,,99,Missing
+,,,
+climate_share,How would you describe the climate on your campus towards people who share your political beliefs?,1,Very hostile
+,,2,Somewhat hostile
+,,3,Somewhat supportive
+,,4,Very supportive
+,,98,Not in survey
+,,99,Missing
+,,,
+stdntideo,Where do you think the political views of the average student on campus are on the following scale?,1,Very liberal
+,,2,Somewhat liberal
+,,3,Slightly liberal
+,,4,"Moderate, middle-of-the-road"
+,,5,Slightly conservative
+,,6,Somewhat conservative
+,,7,Very conservative
+,,8,Democratic Socialist
+,,9,Libertarian
+,,10,Haven't thought much about this
+,,11,Something else
+,,98,Not in survey
+,,99,Missing
+,,,
+facideo,Where do you think the political views of the average faculty member on campus are on the following scale?,1,Very liberal
+,,2,Somewhat liberal
+,,3,Slightly liberal
+,,4,"Moderate, middle-of-the-road"
+,,5,Slightly conservative
+,,6,Somewhat conservative
+,,7,Very conservative
+,,8,Democratic Socialist
+,,9,Libertarian
+,,10,Haven't thought much about this
+,,11,Something else
+,,98,Not in survey
+,,99,Missing
+,,,
+politicalviewsvsparents,How similar are your political views to those of your parent(s') or guardian(s')?,1,Extremely similar
+,,2,Somewhat similar
+,,3,Somewhat different
+,,4,Extremely different
+,,5,I'm not sure what my parents'/guardians' views are
+,,6,"I have views similar to at least one parent (or guardian), but not the other(s)"
+,,7,Other
+,,8,Does not apply to me
+,,98,Not in survey
+,,99,Missing
+,,,
+onlineclasses,College Pulse online classes,1,In-person only
+,,2,In-person and online
+,,3,Online only
+,,98,Not in survey
+,,99,Missing
+,,,
+onlineoverall,"Considering all of your time at your current college, have your courses been all online, mostly online, mostly in person, all in person, or an equal mix of online and in person?",1,All online
+,,2,Mostly online
+,,3,Mostly in-person
+,,4,All in-person
+,,5,An equal mix of both online and in-person
+,,98,Not in survey
+,,99,Missing
+,,,
+onlinespring,"Considering the spring period of instruction, are your current courses all online, mostly online, mostly in person, all in person, or an equal mix of online and in person?",1,All online
+,,2,Mostly online
+,,3,Mostly in-person
+,,4,All in-person
+,,5,An equal mix of both online and in-person
+,,98,Not in survey
+,,99,Missing
+,,,
+onlinevsinperson,"In general, is it more or less difficult to express your views in an online classroom environment compared to an in-person class?",1,Much more difficult
+,,2,Somewhat more difficult
+,,3,About the same online and in-person
+,,4,Somewhat less difficult
+,,5,Much less difficult
+,,98,Not in survey
+,,99,Missing
+,,,
+satwitheduc,"Overall, how satisfied are you with your learning experience at your college? ",1,Extremely satisfied
+,,2,Somewhat satisfied
+,,3,Moderately satisfied
+,,4,Slightly satisfied
+,,5,Not at all satisfied
+,,98,Not in survey
+,,99,Missing
+,,,
+discipline,Have you ever been disciplined by your college’s administration for expression on campus?,1,"Yes, I have been disciplined."
+,,2,"No, but I have been threatened with discipline."
+,,3,I have not been disciplined nor threatened with discipline.
+,,98,Not in survey
+,,99,Missing
